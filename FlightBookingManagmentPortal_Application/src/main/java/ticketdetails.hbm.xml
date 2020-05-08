@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 19, 2020 11:27:53 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.me.pojo.TicketDetails" table="ticket_table">
+        <id name="phone_number" type="long">
+            <column name="phone_number" />
+            <generator class="assigned" />
+        </id>     
+        <property name="Fname" type="java.lang.String">
+            <column name="first_name" />
+        </property>
+        <property name="Lname" type="java.lang.String">
+            <column name="last_name" />
+        </property>
+        <property name="flight_number" type="java.lang.String">
+            <column name="flight_number" />
+        </property>
+        <property name="source" type="java.lang.String">
+            <column name="flight_from" />
+        </property>
+        <property name="destination" type="java.lang.String">
+            <column name="flight_to" />
+        </property>
+        <property name="seats" type="int">
+            <column name="number_of_seats" />
+        </property>
+        <property name="travel_date" type="java.lang.String">
+            <column name="flight_date" />
+        </property>
+    </class>
+</hibernate-mapping>

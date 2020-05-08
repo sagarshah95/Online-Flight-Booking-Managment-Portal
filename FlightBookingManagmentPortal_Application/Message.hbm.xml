@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 11, 2020 8:33:51 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Message" table="MESSAGE">
+        <id name="msgID" type="int">
+            <column name="MSGID" />
+            <generator class="assigned" />
+        </id>
+        <property name="toUser" type="java.lang.String">
+            <column name="TOUSER" />
+        </property>
+        <property name="sender" type="java.lang.String">
+            <column name="SENDER" />
+        </property>
+        <property name="message" type="java.lang.String">
+            <column name="MESSAGE" />
+        </property>
+        <property name="date" type="java.util.Date">
+            <column name="DATE" />
+        </property>
+    </class>
+</hibernate-mapping>

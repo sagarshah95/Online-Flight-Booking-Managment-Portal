@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 17, 2020 3:00:03 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.me.pojo.Flight" table="flight_table">
+        <id name="flight_number" type="java.lang.String">
+            <column name="flight_number" />
+            <generator class="assigned" />
+        </id>
+        <property name="source" type="java.lang.String">
+            <column name="flight_from" />
+        </property>
+        <property name="destination" type="java.lang.String">
+            <column name="flight_to" />
+        </property>
+        <property name="number_of_seats" type="int">
+            <column name="number_of_seats" />
+        </property>
+        <property name="flight_date" type="java.lang.String">
+            <column name="flight_date" />
+        </property>
+    </class>
+</hibernate-mapping>
