@@ -9,6 +9,7 @@ cancellations, ticket fares, reservation pricing requests initiated by travel ag
 
 
 Mission Statements / Objectives:
+
 ➢ Airline Reservation System is an implementation of a general Airline Ticketing website that helps customers to search the
 availability and prices of various airline tickets, along with different packages available with reservations.
 
@@ -29,6 +30,7 @@ Java EE, Spring MVC, Maven, Hibernate, SQL, MySQL Workbench, HTML, CSS, Bootstra
 
 
 Process high-level overview:
+
 ➢ Developed an annotation-based, multi-user Spring MVC app in Hibernate and implemented Spring security for authentication.
 
 ➢ Built an interactive UI using Bootstrap, jQuery, CSS to built Spring WebFlow, for continuous flow throughout the application.
@@ -37,6 +39,7 @@ Process high-level overview:
 
 
 Process Flow:
+
 ➢ Created SQL tables such as 'usertable', 'admintable', 'flightstable', 'ticketstable' inside 'flightbookingportal' db in MySQL
 Workbench.
 
